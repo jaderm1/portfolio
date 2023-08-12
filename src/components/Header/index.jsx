@@ -1,17 +1,19 @@
-import { Button  } from "reactstrap";
 import "./style.css";
+import Button from "../Button";
 
-function Header (){
+function Header (props){
 
 
     return(
      <>
      <header>
         
-        <Button className="btn" color="secondary">Sobre Mim</Button>
-        <Button className="btn" color="secondary">Projetos</Button>
-        <Button className="btn" color="secondary">Contato</Button>
-        <Button className="btn" color="secondary">Curriculo</Button>
+        <Button pagina="Sobre mim"/>
+        <Button pagina="Portfolio"/>
+        <Button pagina="Contato"/>
+
+
+       
      </header>
 
         </>
