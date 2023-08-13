@@ -1,7 +1,14 @@
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+
 function AboutMe(){
+
     return(
+        
         <>
-            <h1>Sobre mim</h1>
+            <Header></Header>
+             <h1>Sobre mim</h1>
+            <Footer></Footer>
         </>
     )
 }
